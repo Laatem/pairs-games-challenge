@@ -19,7 +19,7 @@ For each turn, the user must provide coordonates (example A1 or C7) to reveal a 
 - Create a data structure for the game
 - Manage all keyboard entries for the game process
 - Develop the logic of the game
-- Create a .yml configuration file
+- Create a [.yml](https://www.baeldung.com/spring-yaml) configuration file
 - Implement a function to save and load a game
 
 **Bonus** : Create a difficulty mode (easy / hard) to handle a higher number of moves per level
@@ -29,8 +29,8 @@ For each turn, the user must provide coordonates (example A1 or C7) to reveal a 
 - Handle the clearing of the command line after each use
 - Handle exceptions of users entries
 - Identify the grid with numbers for rows and letters for columns (from 1 to 10 and from A to J)
-- The database must be handle using tinydb
-- Use the Memento design pattern to handle load / save
+- The database must be handle using [tinydb](https://tinydb.readthedocs.io/en/latest/getting-started.html)
+- Use the [Memento](https://refactoring.guru/design-patterns/memento/python/example) design pattern to handle load / save
 - A new game start to level 0 (2x2 grid) to level 4
 ```
 level 0 : 2 x 2
@@ -42,9 +42,9 @@ level 4 : 10 x 10
 
 ## Configuration file
 
-- grid_level: size of the grid by level
-- front : symbol for the visible side of card
-- back : symbol for the back of card
+- `grid_level`: size of the grid by level
+- `front` : symbol for the visible side of card
+- `back` : symbol for the back of card
 ```
 level: [2, 4, 6, 8, 10]
 
