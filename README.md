@@ -11,11 +11,11 @@
 
 ## Principle
 
-For each turn, the user must provide coordonates (example A1 or C7) to reveal a map, then another to find the right pairs, if the cards are identical they will stay visible, otherwise they will turn back and game continue
+For each turn, the user must provide coordinates (example A1 or C7) to reveal a map, then another to find the right pairs, if the cards are identical they will stay visible, otherwise they will turn back and game continue
 
 ## Step
 
-- Create a gid with column and row for the coordonates
+- Create a gid with column and row for the coordinates
 - Create a data structure for the game
 - Manage all keyboard entries for the game process
 - Develop the logic of the game
